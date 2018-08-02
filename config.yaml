@@ -1,0 +1,14 @@
+train_path: "/path/to/train/dir"
+test_path:  "/path/to/test/dir"
+valid_path: "/path/to/validation/dir"
+
+number_of_epochs: 25
+batch_size: 128
+optimizer: "custom"
+
+model_path: "/path/to/save/learned/model"
+
+logging: true
+log_path: "/path/to/log/dir"
+log_file_suffix: "%Y-%m-%d %H:%M:%S"
+
